@@ -1,0 +1,37 @@
+.cards-container{
+    padding:60px 0px;
+    display:flex;
+    flex-wrap:wrap;
+    .card{
+        font-family: 'Dancing Script', cursive;
+        position:relative;
+        width:calc(100%/5 - 20px);
+        height:300px;
+        margin:10px;
+        padding:10px;
+        border:3px dotted black;
+        box-shadow: 3px 3px 3px 3px black;
+        color:black;
+        cursor:pointer;
+        & > *{
+            padding-bottom:10px;
+        }
+        h2{
+            font-size:30px;
+            text-shadow: 2px 2px 2px  grey;
+        }
+        h3{
+            font-size:26px;
+            text-decoration:underline;
+            font-style: oblique;
+            font-weight: 700;
+        }
+        h4{
+            font-size: 20px;
+        }
+        &:hover{
+            background-color: rgb(240, 243, 209);
+        }
+    }
+    
+}

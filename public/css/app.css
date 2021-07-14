@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;
+
+700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;700&display=swap);* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  font-family: "Anton", sans-serif;
+  padding-top: 20px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cards-container {
+  padding: 60px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-container .card {
+  font-family: "Dancing Script", cursive;
+  position: relative;
+  width: calc(100%/5 - 20px);
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 3px dotted black;
+  box-shadow: 3px 3px 3px 3px black;
+  color: black;
+  cursor: pointer;
+}
+
+.cards-container .card > * {
+  padding-bottom: 10px;
+}
+
+.cards-container .card h2 {
+  font-size: 30px;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.cards-container .card h3 {
+  font-size: 26px;
+  text-decoration: underline;
+  font-style: oblique;
+  font-weight: 700;
+}
+
+.cards-container .card h4 {
+  font-size: 20px;
+}
+
+.cards-container .card:hover {
+  background-color: #f0f3d1;
+}
+
